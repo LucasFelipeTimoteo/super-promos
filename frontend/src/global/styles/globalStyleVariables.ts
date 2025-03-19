@@ -1,0 +1,1 @@
+export const symmetricSideMarginStyleVar = 'clamp(9px, 6.8vw, 200px)'

@@ -1,49 +1,75 @@
-# Teste Divulgador Inteligente — Vaga Fullstack
+# 📋 Funcionalidades
 
-Obrigado pelo interesse na vaga! Abaixo estão as instruções para a realização do teste técnico.
+## Backend
+- **Gerenciamento de Produtos**:
+  - Listagem de produtos com suporte a paginação.
+  - Busca de produtos por nome.
+  - Cache de respostas para melhorar a performance.
+- **Gerenciamento de Cupons**:
+  - Aplicação de cupons de desconto na compra.
+- **Health Check**:
+  - Endpoint para verificar o status da API.
 
----
-
-### 🔗 APIs disponíveis
-
-#### 📦 Produtos  
-`GET` [https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20](https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20)
-
-#### 🎟️ Cupons  
-`GET` [https://api.divulgadorinteligente.com/api/coupons/public?sitename=espionandopromos&start=0&limit=10&featured=false](https://api.divulgadorinteligente.com/api/coupons/public?sitename=espionandopromos&start=0&limit=10&featured=false)
-
-#### 🔍 Produtos por nome de cupom  
-`GET` [https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20&sellers[]=magalu&coupon={coupon-name}](https://api.divulgadorinteligente.com/api/products?sitename=espionandopromos&start=0&limit=20&sellers[]=magalu&coupon={coupon-name})
-
----
-
-### ✅ Requisitos básicos
-
-- Utilizar **Next.js** ou **React.js**
-- Listar os produtos
-- Permitir busca de produtos pelo nome
-- Permitir que o usuário adicione um produto ao carrinho
-- Listar cupons
-- Permitir que o usuário filtre produtos por cupom
+## Frontend
+- **Consumo da API**:
+  - Listagem e busca de produtos por nome.
+  - Filtragem de produtos por cupons aplicáveis.
+  - Busca e gerenciamento de cupons.
+  - Adição de produtos ao carrinho.
+- **Interface Amigável**:
+  - Design responsivo e intuitivo para melhor experiência do usuário.
 
 ---
 
-### 📌 Instruções
+# 🛠 Guia de Uso
 
-1. Faça um **fork** deste repositório na sua conta pessoal do GitHub.
-2. Construa um app utilizando os endpoints acima e atendendo aos requisitos básicos.
-3. Ao finalizar, envie o link do repositório para o e-mail **jeff@divulgadorinteligente.com** com o título:  
-   **Teste Vaga Fullstack — Divulgador Inteligente**
+## 📥 Instalação
+
+1. Acesse o terminal na raiz do projeto.
+2. Execute o seguinte comando para instalar todas as dependências:
+   ```bash
+   npm run install:project
+   ```
+3. Inicie o servidor backend (localizado em `./backend`) com:
+   ```bash
+   npm run start:dev
+   ```
+4. Inicie o frontend (localizado em `./frontend`) com:
+   ```bash
+   npm run dev
+   ```
+
+## 🧪 Testes
+
+### Backend
+- Rodar os testes E2E:
+  ```bash
+  cd backend && npm run test:e2e
+  ```
+- Rodar os testes E2E em modo `watch`:
+  ```bash
+  cd backend && npm run test:e2e:watch
+  ```
+- Rodar os testes unitários:
+  ```bash
+  cd backend && npm run test
+  ```
 
 ---
 
-### 🧐 O que será avaliado?
+# 🚀 Tecnologias e Conceitos Utilizados
 
-- Organização do código
-- Interface e experiência do usuário (look & feel)
-- Entrega dos requisitos
-- **Bônus**: testes unitários
+## Backend
+- **Node.js** com **Express** – Framework para construção da API.
+- **TypeScript** – Tipagem estática para maior segurança e produtividade.
+- **Node-Cache** – Cache em memória para otimizar o desempenho.
+- **Pino** – Logger rápido e eficiente.
+- **Helmet e CORS** – Segurança e controle de acesso.
+- **Jest com Supertest** – Testes unitários e E2E garantindo a qualidade da API.
+
+## Frontend
+- **React** – Framework para construção da interface do usuário.
+- **Vite** (se aplicável) – Ferramenta de build rápida para desenvolvimento.
 
 ---
-
-**Boa sorte! 😉**
+Feito com 💘 por Lucas Felipe Timoteo

@@ -1,0 +1,155 @@
+{
+	"data": [
+		{
+			"id": 192247,
+			"attributes": {
+				"updatedAt": "2025-03-15T18:43:39.231Z",
+				"seller": "nike",
+				"code": "NIKE20",
+				"discount": "20",
+				"title": "Cupom Nike",
+				"description": "Desconto exclusivo: ative seu cupom e aproveite a oferta!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-01-15T11:21:07.812Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 259137,
+			"attributes": {
+				"updatedAt": "2025-03-15T16:26:08.299Z",
+				"seller": "netshoes",
+				"code": "DOPAMINA",
+				"discount": "20",
+				"title": "Cupom Netshoes",
+				"description": "Desconto exclusivo: ative seu cupom e aproveite a oferta!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-13T11:33:47.735Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 264437,
+			"attributes": {
+				"updatedAt": "2025-03-15T16:09:59.004Z",
+				"seller": "mercadolivre",
+				"code": "BIANCAPRATTI20",
+				"discount": "20",
+				"title": "Cupom Mercadolivre",
+				"description": "Aproveite já: use este cupom e comece a economizar!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-15T15:52:59.203Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 255987,
+			"attributes": {
+				"updatedAt": "2025-03-15T15:32:40.579Z",
+				"seller": "carrefour",
+				"code": "PROMO15",
+				"discount": "15",
+				"title": "Cupom Carrefour",
+				"description": "Desconto exclusivo: ative seu cupom e aproveite a oferta!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-10T21:51:40.652Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 51177,
+			"attributes": {
+				"updatedAt": "2025-03-15T15:21:01.608Z",
+				"seller": "elausa",
+				"code": "ESPIONANDOPROMOS10",
+				"discount": "Aproveite agora o cupom",
+				"title": "Cupom Elausa",
+				"description": "Desconto exclusivo: ative seu cupom e aproveite a oferta!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2024-09-23T19:51:43.239Z",
+				"discount_type": null
+			}
+		},
+		{
+			"id": 241923,
+			"attributes": {
+				"updatedAt": "2025-03-15T15:20:24.236Z",
+				"seller": "magalu",
+				"code": "QUERO100",
+				"discount": "100",
+				"title": "Cupom Magalu",
+				"description": "Aproveite já: use este cupom e comece a economizar!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-02-25T12:43:03.529Z",
+				"discount_type": "fixed"
+			}
+		},
+		{
+			"id": 261493,
+			"attributes": {
+				"updatedAt": "2025-03-15T14:44:48.286Z",
+				"seller": "natura",
+				"code": "DESC",
+				"discount": "15",
+				"title": "Cupom Natura",
+				"description": "Aproveite já: use este cupom e comece a economizar!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-14T17:06:18.954Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 264104,
+			"attributes": {
+				"updatedAt": "2025-03-15T14:32:30.153Z",
+				"seller": "magalu",
+				"code": "NETSHOES15",
+				"discount": "15",
+				"title": "Cupom Magalu",
+				"description": "Descontos imperdíveis: resgate seu cupom e economize mais!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-15T14:31:14.359Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 263988,
+			"attributes": {
+				"updatedAt": "2025-03-15T14:16:33.292Z",
+				"seller": "mercadolivre",
+				"code": "20COMPROMODEHOMEM",
+				"discount": "20",
+				"title": "Cupom Mercadolivre",
+				"description": "Não perca: garanta seu cupom especial antes que acabe!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2025-03-15T14:04:55.358Z",
+				"discount_type": "percent"
+			}
+		},
+		{
+			"id": 73650,
+			"attributes": {
+				"updatedAt": "2025-03-15T14:13:46.945Z",
+				"seller": "magalu",
+				"code": "HERING20",
+				"discount": "20",
+				"title": "Cupom Magalu",
+				"description": "Desconto exclusivo: ative seu cupom e aproveite a oferta!",
+				"link": null,
+				"featured": false,
+				"createdAt": "2024-10-17T19:38:18.900Z",
+				"discount_type": "percent"
+			}
+		}
+	],
+	"meta": {}
+}
